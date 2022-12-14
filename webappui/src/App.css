@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: border-box;
+}
+
+body {
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background: #000000;
+  color: rgb(253, 254, 254);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.dropdown-menu {
+  background-color: #161424;
+}
+
+.protected {
+  text-align: center;
+  display: block;
+
+
+  min-height: 100%;
+  flex-direction: column;
+  background: #000000;
+  color: rgb(0, 0, 0);
+  background-color: rgb(21, 21, 26);
+  text-align: center;
+}
+
+.btn a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 50px;
+  margin: 10px 9px;
+  color: #03e9f4;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  -webkit-box-reflect: below 18px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+
+.linkbtn a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  position: center;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 0;
+  color: #03e9f4;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 10px;
+  border: 0;
+  -webkit-box-reflect: below 10px linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+
+}
+
+.linkbtn a:hover {
+  background: #b9ffff;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+
+
+.btn a:hover {
+  background: #b9ffff;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+
+
+input[type="text"] {
+  background-color: rgb(255, 255, 255);
+
+
+}
+
+.logout button {
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  position: center;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 0;
+  color: #03e9f4;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 10px;
+  border: 0;
+  -webkit-box-reflect: below 10px linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+
+}
+
+
+
+.logout button:hover {
+  background: #b9ffff;
+  color: #050801;
+  border: 0;
+  box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+
+}
+
+
+.nav-link {
+
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 1vh;
+
+  margin-left: 10px;
+
+  color: #ec8fff;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 5px;
+  -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+
+}
+
+.nav-link:hover {
+
+  background: #f9e7ff;
+  color: #000;
+  box-shadow: 0 0 5px #ec8fff,
+    0 0 25px #ec8fff,
+    0 0 50px #ec8fff,
+    0 0 100px #ec8fff;
+
+
+}
+
+
+.linkki1 a {
+  all: unset;
+  background-color: black;
+  text-decoration: none;
+  font: 1.4em Helvetica, arial, sans-serif;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.deleteacc button {
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  position: center;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 0;
+  color: #03e9f4;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 10px;
+  border: 0;
+  -webkit-box-reflect: below 10px linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+
+}
+
+
+
+.deleteacc button:hover {
+  background: #ff2020;
+  color: #050801;
+  border: 0;
+  box-shadow: 0 0 5px #f40303,
+    0 0 25px #f40303,
+    0 0 50px #f40303,
+    0 0 200px #f40303;
+
+}
+
+
+.webapp a {
+
+  background-color: rgba(29, 29, 31, 0.1);
+  position: center;
+  display: inline-block;
+  padding: 25px 10px;
+  margin: 1px 0;
+  color: #a6ff00;
+  font-size: 20px;
+  text-decoration-style: double;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 10px;
+  border: 0;
+
+
+}
